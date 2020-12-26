@@ -1,0 +1,74 @@
+
+:root {
+	--ancho:1000px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+header{
+	width: var(--ancho);
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	padding: 5px;
+	text-shadow: 0px 2px 5px blue;
+	text-align: center;
+}
+nav{
+	width: var(--ancho);
+	height: 30px;
+	background-color: lightblue;
+	border: 1px solid darkblue;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.boton {
+	height: 90%;
+	border-radius: 5px;
+	font-size: 10pt;
+}
+
+.parr{
+	font-weight: bold;
+}
+#formulario{
+	width: var(--ancho);
+	background-color: lightpink;
+	border: 1px solid darkred;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+
+}
+
+#seccion{
+	width: var(--ancho);
+	background-color: lightgreen;
+	border: 1px solid darkgreen;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+
+}
+
+
+table,td,th{
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#nota {
+	width: 95%;
+	height: 200px;
+}
